@@ -14,3 +14,11 @@ function percentOf(i, j)
 {
 	return Number(i) / Number(j); 
 }
+
+function areaOfCircle(i)
+{
+	var r = Number(i);
+	var areal = Math.PI * r * r;
+
+	return Math.round(areal*100)/100;
+}
