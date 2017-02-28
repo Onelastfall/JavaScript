@@ -10,3 +10,7 @@ function halfNUmber(i)
 	return numberAfter;
 }
 
+function percentOf(i, j)
+{
+	return Number(i) / Number(j); 
+}
