@@ -22,3 +22,14 @@ function areaOfCircle(i)
 
 	return Math.round(areal*100)/100;
 }
+
+function coolFunction(i)
+{
+	var halfOfNum = i/2;
+	var squareResult = Math.sqrt(halfOfNum);
+
+	var areal = areaOfCircle(squareResult);
+	var result = percentOf(squareResult, areal);
+
+	return result;
+}
